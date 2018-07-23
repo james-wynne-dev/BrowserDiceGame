@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#talkBox{
+    width: 400px;
+    height: 125px;
+    margin-left: 160px;
+    margin-top:35px;
+
+}
+
+#diceTable {
+    height: 165px;
+    width: 640px;
+    background-color: green;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+body, html {
+    background-color: black;
+    height: 100%
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#centralColumn {
+    width: 999px;
+    margin: auto;
+    background-color: white;
+    height: 100%
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 7px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#controls {
+    width: 500px;
+    padding-left: 160px;
+    margin-top:30px;
+}
+
+#tableDiv {
+    padding-left: 160px
+}
+
+input, button, p {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    padding: 3px;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 6px;
+}
+
+th, td, table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#theRules {
+    width: 680px;
+    margin:auto;
+    margin-top: 30px;
+}

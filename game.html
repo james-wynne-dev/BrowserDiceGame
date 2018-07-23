@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="gameStyle.css" title="gameStyle">
+    <meta charset="UTF-8">
+</head>
+
+
+<body>
+<div id=centralColumn>
+    <h1>Dice Game</h1>
+
+    <div id="talkBox">
+        <p id="messageBoard"></p>
+    </div>
+
+
+    <div id="controls">
+        <input type="text" id="numDice" autocomplete="off">
+        <button id="testDieNum" onclick="checkDiceNum()">Play</button>
+        <button type="button" onclick="preRoll()">Roll</button>
+        <button id="endGame" onclick="endGame()">End Game</button>
+    </div>
+    <div id="tableDiv">
+        <table>
+            <tr>
+                <th>Number of Rounds</th>
+                <th>Total Points</th>
+            </tr>
+            <tr>
+                <td id="displayNumRounds"></td>
+                <td id="displayTotalPoints"</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div id="diceTable">
+    </div>
+
+    <div id="theRules">
+        <h3>The Rules</h3>
+        <p>This is a dice game in which you roll dice and points are awarded depending upon the numbers on the dice. You can roll as many times as you like and the points for each round will be added to you total.</p>
+        <h4>Scoring</h4>
+        <p>All dice have the same value: 60 points plus the sum of the dices.<br>
+        All dice but one have the same value: 40 points plus the the sum of the dices.<br>
+        All the dice are in a run: 20 points plus the sum of the dices.<br>
+        All the dice have different values: the sum of the dices.<br>
+        For any other outcome you will get 0 points.
+    </div>
+
+    </P>
+
+
+
+
+
+
+
+</div>
+<script src="game.js"></script>
+</body>
+</html>
